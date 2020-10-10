@@ -1,0 +1,48 @@
+@font-face {
+  font-family: MWF-MDL2;
+  src: url('../fonts/mwfmdl2-v3.54.woff2');
+}
+
+.hamburger__bar {
+  background-color: #262626;
+}
+
+header {
+  background-color: white;
+}
+
+.header-container__text {
+  font-size: 13px;
+}
+
+.header-container__selected-catalog {
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.link-drop::after, .btn-search::after, .btn-basket::after {
+  font-family: "MWF-MDL2", sans-serif;
+}
+
+.link-drop::after {
+  font-weight: 700;
+  font-size: 8px;
+}
+
+.btn-registration__icon {
+  background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64' stroke='%23707070'%3E%3Cg class='mectrl_stroke' fill='none'%3E%3Ccircle cx='32' cy='32' r='30.25' stroke-width='1.5'/%3E%3Cg transform='matrix(.9 0 0 .9 10.431 10.431)' stroke-width='2'%3E%3Ccircle cx='24.25' cy='18' r='9'/%3E%3Cpath d='M11.2 40a1 1 0 1126.1 0'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.focus-border:active, .focus-border:focus {
+  outline: 1px dashed #262626;
+}
+
+.hover-line {
+  border-bottom: 2px solid transparent;
+}
+
+.hover-line:hover {
+  border-bottom-color: black;
+}
